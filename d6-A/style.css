@@ -1,0 +1,84 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    width: 350px;
+    height: 450px;
+     border-radius: 10px;
+     position: relative;
+}
+.container:hover .icon{
+    display: block;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+.icon{
+    display: none;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 255, 255, 0.171);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.save-button{
+    background-color: #E60022;
+    color: white;
+    height: 50px;
+    width: 90px;
+    border-radius: 80px/60px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+.info{
+    width:180px;
+    height: 50px;
+    border-radius: 70px/60px;
+    text-align: center;
+    line-height: 50px;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.download-button{
+    position: absolute;
+    bottom: 13px;
+    left: 220px;
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.menu-button{
+    position: absolute;
+    bottom: 13px;
+    left: 280px;
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
